@@ -453,14 +453,14 @@ ul.row {
   left: var(--header-logo-link-left);
 }
 
-nav .nav-link::before {
-  content: empty;
+.nav .nav-link::before {
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
   background-color: var(--color-white);
   width: 0;
-  height: 0.2rem;
+  height: 20%;
 }
 
 .nav-link .nav-item.hover::before {
