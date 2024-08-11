@@ -350,3 +350,31 @@ ul.row {
   --section-title-color: var(--color-white);
   background-color: var(--color-black);
 }
+
+.footer-address {
+  color: var(--text-color);
+}
+
+.social-link {
+  display: block;
+}
+
+.social-link svg {
+  fill: var(--text-color);
+}
+
+.card-title .card-services {
+  margin: 0;
+}
+
+.card-services a {
+  display: block;
+  background-color: var(--color-light-grey);
+  padding: 2vw;
+}
+
+.card-services a:hover {
+  color: var(--color-white);
+  background-color: var(--color-primary);
+  text-decoration: none;
+}
