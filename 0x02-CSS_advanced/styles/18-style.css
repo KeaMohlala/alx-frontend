@@ -183,10 +183,10 @@ template {
   --nav-item-font-family: var(--font-family-title);
   --nav-item-font-weight: var(--font-weight-bold);
   --nav-item-font-size: var(--font-size-medium);
-  --nav-item-letter-spacing: calc(4% * 1rem);
   --nav-item-display: inline-block;
-  --nav-item-margin: 0 0 3rem 0;
   --nav-item-link-hover: var(--color-primary);
+  --nav-item-margin: 0 0 3rem 0;
+  --nav-item-letter-spacing: 4%;
 }
 
 html {
@@ -286,11 +286,11 @@ a:active {
 .nav {
   margin: 0;
   padding: 0;
-  list-style: none;
   text-align: center;
+  list-style: none;
 }
 
-.nav-item {
+.nav .nav-item {
   font-family: var(--nav-item-font-family);
   font-weight: var(--nav-item-font-weight);
   font-size: var(--nav-item-font-size);
@@ -299,11 +299,11 @@ a:active {
   margin: var(--nav-item-margin);
 }
 
-.nav-link {
+.nav .nav-link {
   display: block;
-  padding: calc(0.5 * 1rem) 1rem;
+  padding: calc(50% / 2) 0;
 }
 
-.nav-link:hover {
+.nav .nav-link:hover {
   color: var(--nav-item-link-hover);
 }
